@@ -4,16 +4,16 @@ const cats=productCategories;
 const icons=["📷","🖥️","📹","💾","🎥","🏠","🔔","🕒","🗄️","🔌","🧰","🚗"];
 const sols=[["Banking","ATM, branch and cash-van surveillance."],["Campus","Safer schools and universities."],["Hospitality / Health Care","Tailored coverage for hotels and hospitals."],["Industrial","Warehouses and manufacturing floors."],["Law Enforcement","Support for city and state police."],["Oil & Gas","Remote, large-area monitoring."],["Real Estate","Construction sites to finished buildings."],["Retail","Reduce theft and cashier fraud."],["Safe City","Public-area surveillance."],["Smart Traffic","Traffic monitoring and enforcement."],["Transport","Mobile surveillance for vehicles."]];
 const trend=[
- {name:"CP-UNC-DA21L3C-LQ2",description:"2MP Dual Light Dome Camera - 30Mtr.",isNew:true,image:"https://cpplusworld.com/prodassets/product/small/7a97138d-c694-4090-806b-3746e5ba222f.png",url:"https://cpplusworld.com/cp-unc-da21l3c-lq2"},
- {name:"CP-W32",description:"CarKam 3MP",isNew:true,image:"https://cpplusworld.com/prodassets/product/small/ee3c91b8-4ab4-4b81-a64a-9970ccd7c4a7.png",url:"https://cpplusworld.com/cp-w32"},
- {name:"CP-UVR-1601F1V-I",description:"16Ch. 5MP Digital Video Recorder",isNew:true,image:"https://cpplusworld.com/prodassets/product/small/38bd52ca-7a64-4380-bf3a-70beda8041e7.png",url:"https://cpplusworld.com/cp-uvr-1601f1v-i-"},
- {name:"CP-UVR-3201K2V-I3",description:"32Ch. 5MP Digital Video Recorder",image:"https://cpplusworld.com/prodassets/product/small/b1c210f6-67b3-445b-b554-499ac7e3379e.png",url:"https://cpplusworld.com/cp-uvr-3201k2v-i3-"},
- {name:"CP-DNW-GPU8G2P-96",description:"8 Ports Gigabit Unmanaged PoE Switch with 2 Gigabit Uplink Ports",image:"https://cpplusworld.com/prodassets/product/small/7ef9d793-773e-4f0a-87c0-6fe180814cab.png",url:"https://cpplusworld.com/cp-dnw-gpu8g2p-96"},
- {name:"CP-DNW-GPU4G2P-48",description:"4 Ports Gigabit Unmanaged PoE Switch with 2 Gigabit Uplink Ports",image:"https://cpplusworld.com/prodassets/product/small/db77677b-d95e-4e46-8ec0-fd8a282aeb74.png",url:"https://cpplusworld.com/cp-dnw-gpu4g2p-48-"},
- {name:"CP-UNC-TA21L3C-LQ2",description:"2MP Dual Light Bullet Camera - 30Mtr.",image:"https://cpplusworld.com/prodassets/product/small/531ea535-0047-47c2-a5a9-c55b9930aa6d.png",url:"https://cpplusworld.com/cp-unc-ta21l3c-lq2"},
- {name:"CP-UNC-TA21L3C-Q2",description:"2MP Network IR Bullet Camera - 30Mtr.",image:"https://cpplusworld.com/prodassets/product/small/22c05e26-e287-4dfc-bda5-a9446e75839c.png",url:"https://cpplusworld.com/cp-unc-ta21l3c-q2"},
- {name:"CP-UA-H14L100B-V3",description:"14” Vandal-Proof IR Housing",image:"https://cpplusworld.com/prodassets/product/small/648e0e96-40ac-497a-9e12-2e135de1c5c7.png",url:"https://cpplusworld.com/cp-ua-h14l100b-v3"},
- {name:"CP-UA-H14B-V3",description:"14” Vandal Proof Camera Housing",image:"https://cpplusworld.com/prodassets/product/small/743a15d5-c356-40a9-a85d-231089f0a64f.png",url:"https://cpplusworld.com/cp-ua-h14b-v3"}
+ {name:"CP-UNC-DA21L3C-LQ2",description:"2MP Dual Light Dome Camera - 30Mtr.",isNew:true,image:"assets/ngc.png",url:"https://cpplusworld.com/cp-unc-da21l3c-lq2"},
+ {name:"CP-W32",description:"CarKam 3MP",isNew:true,image:"assets/cdc.png",url:"https://cpplusworld.com/cp-w32"},
+ {name:"CP-UVR-1601F1V-I",description:"16Ch. 5MP Digital Video Recorder",isNew:true,image:"assets/nvr.png",url:"https://cpplusworld.com/cp-uvr-1601f1v-i-"},
+ {name:"CP-UVR-3201K2V-I3",description:"32Ch. 5MP Digital Video Recorder",image:"assets/CP-UVR-3201K2V-I3.png",url:"https://cpplusworld.com/cp-uvr-3201k2v-i3-"},
+ {name:"CP-DNW-GPU8G2P-96",description:"8 Ports Gigabit Unmanaged PoE Switch with 2 Gigabit Uplink Ports",image:"assets/CP-DNW-GPU8G2P-96.png",url:"https://cpplusworld.com/cp-dnw-gpu8g2p-96"},
+ {name:"CP-DNW-GPU4G2P-48",description:"4 Ports Gigabit Unmanaged PoE Switch with 2 Gigabit Uplink Ports",image:"assets/CP-DNW-GPU4G2P-48.png",url:"https://cpplusworld.com/cp-dnw-gpu4g2p-48-"},
+ {name:"CP-UNC-TA21L3C-LQ2",description:"2MP Dual Light Bullet Camera - 30Mtr.",image:"assets/bsc.png",url:"https://cpplusworld.com/cp-unc-ta21l3c-lq2"},
+ {name:"CP-UNC-TA21L3C-Q2",description:"2MP Network IR Bullet Camera - 30Mtr.",image:"assets/inc.png",url:"https://cpplusworld.com/cp-unc-ta21l3c-q2"},
+ {name:"CP-UA-H14L100B-V3",description:"14” Vandal-Proof IR Housing",image:"assets/CP-UA.png",url:"https://cpplusworld.com/cp-ua-h14l100b-v3"},
+ {name:"CP-UA-H14B-V3",description:"14” Vandal Proof Camera Housing",image:"assets/CP-UA-H1.png",url:"https://cpplusworld.com/cp-ua-h14b-v3"}
 ];
 const news=[["11/05/2026","A new campaign. A smarter way to look at security."],["05/29/2026","Leadership in intelligent surveillance at industry expos"],["05/29/2026","Surveillance beyond infrastructure for remote homes"],["04/09/2026","New R&D center strengthens global innovation"],["04/09/2026","Dual honours for smart, made-in-India security"],["03/05/2026","Managing Director receives industry achievement award"]];
 const productPhotos=[
@@ -21,31 +21,31 @@ const productPhotos=[
  "photo-1581092918056-0c4c3acd3789","photo-1519608487953-e999c86e7455","photo-1563013544-824ae1b704d3"
 ];
 const categoryProductPhotos={
- "CarKam":["https://cpplusworld.com/prodassets/product/small/ee3c91b8-4ab4-4b81-a64a-9970ccd7c4a7.png","photo-1449965408869-eaa3f722e40d","photo-1549317661-bd32c8ce0db2","photo-1603386329225-868f9b1ee6a9"],
+ "CarKam":["assets/cdc.png","assets/cdc.png","assets/cdc.png","assets/cdc.png"],
  "Speed Dome(PTZ)":["photo-1558008258-3256797b43f3","photo-1557597774-9d273605dfa9","photo-1581092918056-0c4c3acd3789","photo-1519608487953-e999c86e7455"],
  "EzyHome":["photo-1563013544-824ae1b704d3","photo-1558008258-3256797b43f3","photo-1557597774-9d273605dfa9","photo-1518770660439-4636190af475"],
  "Video Door Phones":["photo-1558008258-3256797b43f3","photo-1563013544-824ae1b704d3","photo-1557597774-9d273605dfa9","photo-1518770660439-4636190af475"],
  "Time & Attendance":["photo-1581092918056-0c4c3acd3789","photo-1518770660439-4636190af475","photo-1563013544-824ae1b704d3","photo-1558008258-3256797b43f3"],
  "Mobile Surveillance":["photo-1549317661-bd32c8ce0db2","photo-1449965408869-eaa3f722e40d","photo-1603386329225-868f9b1ee6a9","photo-1558008258-3256797b43f3"],
  "Storage":["photo-1558494949-ef010cbdcc31","photo-1544197150-b99a580bb7a8","photo-1597872200969-2b65d56bd16b","photo-1518770660439-4636190af475"],
- "Switches":["https://cpplusworld.com/prodassets/product/small/7ef9d793-773e-4f0a-87c0-6fe180814cab.png","https://cpplusworld.com/prodassets/product/small/db77677b-d95e-4e46-8ec0-fd8a282aeb74.png","https://cpplusworld.com/prodassets/product/small/7ef9d793-773e-4f0a-87c0-6fe180814cab.png","https://cpplusworld.com/prodassets/product/small/db77677b-d95e-4e46-8ec0-fd8a282aeb74.png"],
+ "Switches":["assets/CP-DNW-GPU8G2P-96.png","assets/CP-DNW-GPU4G2P-48.png","assets/CP-DNW-GPU8G2P-96.png","assets/CP-DNW-GPU4G2P-48.png"],
  "Memory":["photo-1518770660439-4636190af475","photo-1597872200969-2b65d56bd16b","photo-1581092918056-0c4c3acd3789","photo-1558494949-ef010cbdcc31"],
  "Body Worn Solutions":["photo-1557597774-9d273605dfa9","photo-1581092918056-0c4c3acd3789","photo-1518770660439-4636190af475","photo-1558008258-3256797b43f3"],
  "AI Edge Box":["photo-1518770660439-4636190af475","photo-1581092918056-0c4c3acd3789","photo-1558494949-ef010cbdcc31","photo-1597872200969-2b65d56bd16b"],
  "Accessories":["photo-1518770660439-4636190af475","photo-1558008258-3256797b43f3","photo-1581092918056-0c4c3acd3789","photo-1563013544-824ae1b704d3"],
- "Network Camera":["https://cpplusworld.com/prodassets/product/small/7a97138d-c694-4090-806b-3746e5ba222f.png","https://cpplusworld.com/prodassets/product/small/531ea535-0047-47c2-a5a9-c55b9930aa6d.png","https://cpplusworld.com/prodassets/product/small/22c05e26-e287-4dfc-bda5-a9446e75839c.png","https://cpplusworld.com/prodassets/product/small/7a97138d-c694-4090-806b-3746e5ba222f.png"],
- "Network Video Recorder (NVR)":["https://cpplusworld.com/prodassets/product/small/38bd52ca-7a64-4380-bf3a-70beda8041e7.png","https://cpplusworld.com/prodassets/product/small/b1c210f6-67b3-445b-b554-499ac7e3379e.png","https://cpplusworld.com/prodassets/product/small/38bd52ca-7a64-4380-bf3a-70beda8041e7.png","https://cpplusworld.com/prodassets/product/small/b1c210f6-67b3-445b-b554-499ac7e3379e.png"],
- "Analog HD Camera":["https://cpplusworld.com/prodassets/product/small/531ea535-0047-47c2-a5a9-c55b9930aa6d.png","https://cpplusworld.com/prodassets/product/small/22c05e26-e287-4dfc-bda5-a9446e75839c.png","https://cpplusworld.com/prodassets/product/small/7a97138d-c694-4090-806b-3746e5ba222f.png","https://cpplusworld.com/prodassets/product/small/531ea535-0047-47c2-a5a9-c55b9930aa6d.png"],
- "Digital Video Recorder (DVR)":["https://cpplusworld.com/prodassets/product/small/38bd52ca-7a64-4380-bf3a-70beda8041e7.png","https://cpplusworld.com/prodassets/product/small/b1c210f6-67b3-445b-b554-499ac7e3379e.png","photo-1597872200969-2b65d56bd16b","photo-1558494949-ef010cbdcc31"],
- "illumax":["https://cpplusworld.com/prodassets/product/small/7a97138d-c694-4090-806b-3746e5ba222f.png","https://cpplusworld.com/prodassets/product/small/531ea535-0047-47c2-a5a9-c55b9930aa6d.png","https://cpplusworld.com/prodassets/product/small/22c05e26-e287-4dfc-bda5-a9446e75839c.png","photo-1557597774-9d273605dfa9"],
- "Guard+":["https://cpplusworld.com/prodassets/product/small/7a97138d-c694-4090-806b-3746e5ba222f.png","https://cpplusworld.com/prodassets/product/small/531ea535-0047-47c2-a5a9-c55b9930aa6d.png","photo-1558008258-3256797b43f3","photo-1557597774-9d273605dfa9"]
+ "Network Camera":["assets/ngc.png","assets/bsc.png","assets/inc.png","assets/ngc.png"],
+ "Network Video Recorder (NVR)":["assets/nvr.png","assets/CP-UVR-3201K2V-I3.png","assets/nvr.png","assets/CP-UVR-3201K2V-I3.png"],
+ "Analog HD Camera":["assets/bsc.png","assets/inc.png","assets/ngc.png","assets/bsc.png"],
+ "Digital Video Recorder (DVR)":["assets/nvr.png","assets/CP-UVR-3201K2V-I3.png","assets/nvr.png","assets/CP-UVR-3201K2V-I3.png"],
+ "illumax":["assets/ngc.png","assets/bsc.png","assets/inc.png","assets/ngc.png"],
+ "Guard+":["assets/ngc.png","assets/bsc.png","assets/inc.png","assets/ngc.png"]
 };
 const newsPhotos=[
  "photo-1558008258-3256797b43f3","photo-1486406146926-c627a92ad1ab","photo-1519608487953-e999c86e7455",
  "photo-1581092918056-0c4c3acd3789","photo-1518770660439-4636190af475","photo-1544620347-c4fd4a3d5957"
 ];
 const photoUrl=(id,w=700)=>`https://images.unsplash.com/${id}?auto=format&fit=crop&w=${w}&q=80`;
-const productImageUrl=(source,w=700)=>source.startsWith("http")?source:photoUrl(source,w);
+const productImageUrl=(source,w=700)=>source.startsWith("http")||source.startsWith("assets/")?source:photoUrl(source,w);
 const $=id=>document.getElementById(id);
 $("megaMenu").innerHTML=`<a href="#products" data-product-all>All Products</a>${cats.map((c,i)=>`<a href="#products" data-category="${i}">${c}</a>`).join("")}`;
 $("solMenu").innerHTML=sols.map(s=>`<a href="#solutions">${s[0]}</a>`).join("");
